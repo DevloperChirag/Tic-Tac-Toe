@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tic Tac Toe</title>
+</head>
+<body id="my-canvas">
+		
+    <div class="container">
+	<div class="last">
+				<h3>Tic Tac Toe</h3>
+				<button class="btn">Click to Play</button>
+		</div>
+		<div class="title">Tic Tac Toe</div>
+        <div class="grid">
+            <div class="row">
+                <div onclick="handler(this)" id="0" class="col">
+				<audio id="audio" src="assets\click.mp3" type="audio/mp3">
+				</audio>
+				</div>
+                <div onclick="handler(this)" id="1" class="col"></div>
+                <div onclick="handler(this)" id="2" class="col"></div>
+            </div>
+            <div class="row">
+                <div onclick="handler(this)" id="3" class="col"></div>
+                <div onclick="handler(this)" id="4" class="col"></div>
+                <div onclick="handler(this)" id="5" class="col"></div>
+            </div>
+            <div class="row">
+                <div onclick="handler(this)" id="6" class="col"></div>
+                <div onclick="handler(this)" id="7" class="col"></div>
+                <div onclick="handler(this)" id="8" class="col"></div>
+            </div>
+            <div class="winner"></div>
+			
+        </div>
+	</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tsparticles/confetti@3.0.3/tsparticles.confetti.bundle.min.js"></script>
+	<script src="script.js"></script>
+</body>
+</html>

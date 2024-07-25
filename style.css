@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+    color:#fff;
+   
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    background-image:url("https://static.vecteezy.com/system/resources/previews/023/858/187/non_2x/wallpaper-with-gamepad-icon-3d-background-with-copy-space-vector.jpg");
+/*background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJ82JLDxlE1SHczNhnfb4qmdEajKmA0GDKQw&s");*/
+	background-size:cover;
+}
+.container{
+	width:100vw;
+	height:100vh;
+	display: flex;
+	flex-direction:column;
+    align-items: center;
+    justify-content: center;
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.col{
+    height: 100px;
+    width: 100px;
+    border: 1px solid white;
+    position: relative;
+    align-items: center;
+    font-size: 90px;
+    background-color: #FF4C4C;
+    color: #FFB22C;
+	border-radius:10px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	font-weight:700;
+	cursor:pointer;
+
+}
+.cursorNone{
+	pointer-event:none;
+}
+.col:hover{
+	border:2px outset white;
+}
+
+.winner{
+	background-color:#FF4C4C;
+	margin:2rem auto;
+	width:20rem;
+	height:3rem;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+	border-radius:10px;
+	opacity:0;
+	font-size: 2rem;
+	font-weight:600;
+	color: #FFB22C;
+	-webkit-text-stroke:0.5px white;
+	border: 1px solid white;
+	
+}
+.last{
+	width:100vw;
+	height:100vh;
+	Background-color:#FF4C4C;
+	color: #FFB22C;
+	font-size:2.5rem;
+	-webkit-text-stroke:0.5px white;
+	position:absolute;
+	top:0;
+	display: flex;
+	flex-direction:column;
+    align-items: center;
+    justify-content: center;
+	font-weight:600;
+	transition:1s linear;
+	z-index:99;
+}
+
+.btn{
+		Background-color:transparent;
+		color:white;
+		border:0px solid black;
+		cursor:pointer;
+}
+
+.title{
+	color: #FF4C4C;
+	font-size:8vw;
+	-webkit-text-stroke:2px white;
+	text-align:center;
+	font-weight:600;
+	mix-blend-mode:screen;
+	}
+
+
+
+
+
+
+
+
